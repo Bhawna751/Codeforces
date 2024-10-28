@@ -2,7 +2,7 @@
 using namespace std;
 typedef long long ll;
 ll sum(ll n) { 
-    return n*(n+1)/2;
+    return (n*(n+1))/2;
 }
 // sum : s s+1 s+2 .... e
 ll sum(ll s, ll e){
@@ -21,7 +21,7 @@ ll minS(ll k , ll n){
     return k-l+2;
 }
 int main(){
-    int n,k;
+    ll n,k;
     cin>>n>>k;
     if(n==1)cout<<0<<endl;
     //only one outflow source exists
